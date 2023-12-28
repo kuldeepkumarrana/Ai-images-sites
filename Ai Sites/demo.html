@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root{
+       --color: rgb(255, 255, 255);
+       --bgcolor: green;
+    }
+    .dark_mode{
+      --color: green;
+      --bgcolor: red;
+    }
+    /* body{
+      color: var(--color);
+      background-color: var(--bgcolor);
+    } */
+    header{
+      width: 1140px;
+      margin: auto;
+    }
+    header nav menu{
+      display: flex;
+      justify-self: start;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .menu ul li{
+      list-style: none;
+      display: inline;
+      padding: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <menu>
+        <div class="logo">
+          <img src="https://xaito.vercel.app/assets/img/logo/black-logo.png" alt="" width="50%">
+        </div>
+        <div class="menu">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </menu>
+    </nav>
+  </header>
+  <section>
+    <div>
+      <h1>welcome</h1>
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/1c0df8d305.js" crossorigin="anonymous"></script>
+</body>
+</html>
